@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.social</groupId>
-    <artifactId>securityDemo</artifactId>
+    <artifactId>spring-security-learning</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>securityDemo</name>
-    <description>securityDemo</description>
+    <name>spring-security-learning</name>
+    <description>spring-security-learning</description>
     <url/>
     <licenses>
         <license/>
