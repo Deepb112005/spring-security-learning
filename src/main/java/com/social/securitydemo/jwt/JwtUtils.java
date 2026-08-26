@@ -21,9 +21,9 @@ public class JwtUtils {
 
     private static final org.slf4j.Logger logger = LoggerFactory.getLogger(JwtUtils.class);
 
-    @Value("${spring.app.jwtSecret}")
-    private String jwtExpirationMS;
     @Value("${spring.app.jwtExpiration}")
+    private long jwtExpirationMS;
+    @Value("${spring.app.jwtSecret}")
     private String jwtSecret;
 
     //Getting JWT from Header
